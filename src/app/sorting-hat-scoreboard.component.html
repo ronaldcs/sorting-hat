@@ -1,0 +1,9 @@
+<div class="title">Scoreboard</div>
+<div class="house-scores">
+	<ul>
+		<li *ngFor="let house of houses">
+			<div (click)="increaseScore(house)" (dblclick)="decreaseScore(house)">{{ house.score }}</div>
+		</li>
+	</ul>
+</div>
+<router-outlet></router-outlet>

@@ -1,3 +1,8 @@
-<h1>
-  {{title}}
-</h1>
+<div class="houses">
+	<ul>
+		<li *ngFor="let house of houses" [style.background-image]="'url(' + house.backgroundUrl + ')'">
+			<img src="{{ house.crestUrl }}" />
+		</li>
+	</ul>
+</div>
+<router-outlet></router-outlet>

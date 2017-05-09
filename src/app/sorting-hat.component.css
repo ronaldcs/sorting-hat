@@ -1,0 +1,49 @@
+div.title {
+  color: #ddd;
+  position: absolute;
+  left: 50%;
+  margin-left: -210px;
+  top: 0;
+  width: 400px;
+  height: 30px;
+  text-align: center;
+  font-size: 3em;
+  padding: 20px;
+  text-shadow: 1px 1px 0 #000, -1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000, 0px 1px 0 #000, 0px -1px 0 #000, -1px 0px 0 #000, 1px 0px 0 #000, 2px 2px 0 #000, -2px 2px 0 #000, 2px -2px 0 #000, -2px -2px 0 #000, 0px 2px 0 #000, 0px -2px 0 #000, -2px 0px 0 #000, 2px 0px 0 #000, 1px 2px 0 #000, -1px 2px 0 #000, 1px -2px 0 #000, -1px -2px 0 #000, 2px 1px 0 #000, -2px 1px 0 #000, 2px -1px 0 #000, -2px -1px 0 #000; }
+
+input.student-name {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -30px;
+  margin-left: -165px;
+  width: 300px;
+  height: 30px;
+  padding: 15px;
+  color: #fff;
+  text-align: center;
+  font-family: 'Hogwarts Wizard';
+  font-size: 1em;
+  border: none;
+  border-radius: 3px;
+  background-color: rgba(0, 0, 0, 0.3); }
+  input.student-name::-webkit-input-placeholder {
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center; }
+
+button.student-name-button {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: 45px;
+  margin-left: -75px;
+  width: 150px;
+  padding: 15px;
+  font-family: 'Hogwarts Wizard';
+  font-size: 1em;
+  color: #fff;
+  border: 2px solid #b9712b;
+  background-color: peru;
+  border-radius: 3px; }
+
+/*# sourceMappingURL=sorting-hat.component.css.map */

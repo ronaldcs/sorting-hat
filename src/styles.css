@@ -1,1 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
+@font-face {
+	font-family: 'Hogwarts Wizard';
+	src:
+		url(/assets/fonts/HogwartsWizard.ttf);
+}
+body {
+	font-family: 'Hogwarts Wizard';
+	font-size: 24px;
+	color: #fff;
+	background: center center url(/assets/images/deathly_hallows_bg.jpg) #000;
+	background-size: 100vw;
+	background-attachment: fixed;
+	margin: 0;
+}

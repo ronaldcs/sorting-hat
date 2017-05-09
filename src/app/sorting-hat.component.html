@@ -1,0 +1,8 @@
+<div class="title">
+	Sorting Hat
+</div>
+<form class="input-form">
+	<input #studentName class="student-name" type="text" placeholder="What is your full name?" />
+	<button class="student-name-button" (click)="assignToRandomHouse(studentName.value, studentName)">Sort Me!</button>
+</form>
+<router-outlet></router-outlet>
